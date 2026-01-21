@@ -1,6 +1,6 @@
 [
   {
-    "Author": "QiongHHHZZZ",
+    "Author": "ReMakePlace Maintainers, QiongHHHZZZ(汉化&适配)",
     "Name": "ReMakePlace Plugin",
     "InternalName": "ReMakePlacePlugin",
     "AssemblyVersion": "7.4.2.0",
@@ -17,7 +17,7 @@
     "DalamudApiLevel": 14,
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/QiongHHHZZZ/plugin/master/icon.png",
-    "Punchline": "Automatically save & load furniture layouts in your house.",
+    "Punchline": "适配7.4可用",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip",
     "DownloadLinkUpdate": "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip"
