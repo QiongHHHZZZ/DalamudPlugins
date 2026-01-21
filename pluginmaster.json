@@ -1,25 +1,23 @@
-[
-  {
-    \"Author\": \"QiongHHHZZZ\",
-    \"Name\": \"ReMakePlace Plugin\",
-    \"InternalName\": \"ReMakePlacePlugin\",
-    \"AssemblyVersion\": \"7.4.2.0\",
-    \"Description\": \"Automatically save & load interior and exterior house layouts. Import/export layouts from the ReMakePlace program.\",
-    \"ApplicableVersion\": \"any\",
-    \"RepoUrl\": \"https://github.com/QiongHHHZZZ/plugin\",
-    \"Tags\": [
-      \"makeplace\",
-      \"housing\",
-      \"furniture\",
-      \"remakeplace\",
-      \"re-makeplace\"
-    ],
-    \"DalamudApiLevel\": 14,
-    \"LoadPriority\": 0,
-    \"IconUrl\": \"https://raw.githubusercontent.com/QiongHHHZZZ/plugin/master/icon.png\",
-    \"Punchline\": \"Automatically save & load furniture layouts in your house.\",
-    \"AcceptsFeedback\": true,
-    \"DownloadLinkInstall\": \"https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip\",
-    \"DownloadLinkUpdate\": \"https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip\"
-  }
-]
+{
+  "Author": "QiongHHHZZZ",
+  "Name": "ReMakePlace Plugin",
+  "InternalName": "ReMakePlacePlugin",
+  "AssemblyVersion": "7.4.2.0",
+  "Description": "Automatically save & load interior and exterior house layouts. Import/export layouts from the ReMakePlace program.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/QiongHHHZZZ/plugin",
+  "Tags": [
+    "makeplace",
+    "housing",
+    "furniture",
+    "remakeplace",
+    "re-makeplace"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/QiongHHHZZZ/plugin/master/icon.png",
+  "Punchline": "Automatically save & load furniture layouts in your house.",
+  "AcceptsFeedback": true,
+  "DownloadLinkInstall": "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip",
+  "DownloadLinkUpdate": "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip"
+}
