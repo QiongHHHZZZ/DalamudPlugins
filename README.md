@@ -1,44 +1,89 @@
-# DalamudPlugins
+# DalamudPlugins（国服自定义插件源）
 
-这是一个 Dalamud 自定义插件仓库清单（pluginmaster）。
+这是一个用于 Dalamud 的自定义插件仓库清单（`pluginmaster.json`），用于维护多个插件的国服版本发布。
 
-## 使用方法
+## 用户使用方法
 
-在 Dalamud → 插件安装器 → 设置 → 自定义插件仓库 中添加：
+在 Dalamud 中添加以下自定义仓库地址：
 
-- https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/pluginmaster.json
+- `https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/pluginmaster.json`
 
-## 版本号规则（上游同步 + 本地修订）
+路径：`Dalamud -> 插件安装器 -> 设置 -> 自定义插件仓库`
 
-为避免和上游版本冲突，同时保证 Dalamud 可正确比较更新版本，统一使用 **4 段版本号**：
+## 仓库结构
 
-- 格式：`主版本.次版本.补丁.构建`
-- 约定：第 4 段采用“上游版本尾号 + 两位本地修订”
+- `pluginmaster.json`：插件清单（核心文件）
+- `README.md`：维护规范与发布流程
 
-示例（以上游 `4.0.4.39` 为例）：
+## 版本规则（通用，适用于后续新增插件）
 
-- 上游同步版：`4.0.4.3900`
-- 本地修订 1：`4.0.4.3901`
-- 本地修订 2：`4.0.4.3902`
-- 上游升级到 `4.0.4.40` 时：`4.0.4.4000`
+为保证 Dalamud 版本比较稳定，统一使用 **4 段纯数字版本号**：
+
+- 格式：`A.B.C.D`
+- 不使用带后缀版本（如 `-beta`）和 5 段版本。
+
+### 推荐规则（上游同步 + 本地修订）
+
+当插件有上游版本时，建议第 4 段按 `UUFF` 编码：
+
+- `UU`：上游第 4 段（两位）
+- `FF`：本地修订序号（`00-99`）
+
+示例 A（有上游，推荐）：
+
+- 上游：`1.2.3.45`
+- 纯上游同步：`1.2.3.4500`
+- 本地修订 1：`1.2.3.4501`
+- 本地修订 2：`1.2.3.4502`
+- 上游升级到 `1.2.3.46`：`1.2.3.4600`
+
+示例 B（无上游，自研插件）：
+
+- 首发：`1.0.0.1`
+- 第二次发布：`1.0.0.2`
+- 小版本功能更新：`1.1.0.1`
 
 说明：
 
-- `00` 代表“纯上游同步”；`01+` 代表“基于该上游版本的本地修订”。
-- 必须保证版本号单调递增，避免客户端无法识别更新。
-- 不使用 5 段版本号（如 `4.0.4.39.1`），避免 Dalamud 解析/比较问题。
+- `00` 表示纯同步上游；`01+` 表示本地改动版本（仅适用于“有上游”的插件）。
+- 版本号必须单调递增，避免客户端不提示更新。
+- 上述示例仅用于演示版本规则，不指向任何具体插件。
 
-## 发布流程（手动）
+## 新增插件流程
 
-每次发布请按以下顺序执行：
+1. 准备插件仓库与可下载安装包（zip）。
+2. 确认插件项目版本号（`Version` / `AssemblyVersion` / `FileVersion`）一致。
+3. 在插件仓库创建 `tag/release`，上传 zip 资产。
+4. 在 `pluginmaster.json` 新增条目，至少包含：
+   - `Name`
+   - `InternalName`
+   - `AssemblyVersion`
+   - `RepoUrl`
+   - `DownloadLinkInstall`
+   - `DownloadLinkUpdate`
+   - `DalamudApiLevel`
+5. 提交并推送 `DalamudPlugins` 仓库。
 
-1. 在插件项目中更新 `Version`（如 `4.0.4.3901`）。
-2. 构建并打包 `Artisan.zip`。
-3. 在 `Artisan` 仓库创建同名 tag/release（如 `v4.0.4.3901`），上传 `Artisan.zip`。
-4. 更新本仓库 `pluginmaster.json` 中 `Artisan` 条目：
+## 更新已有插件流程
+
+1. 在插件源码仓库更新版本号并构建发布包。
+2. 发布新 `tag/release`，确认 zip 链接可下载。
+3. 修改 `pluginmaster.json` 对应条目：
    - `AssemblyVersion`
    - `DownloadLinkInstall`
    - `DownloadLinkUpdate`
-5. 提交并推送 `DalamudPlugins`。
+   - （可选）`Description` / `Punchline`
+4. 推送后在 Dalamud 中刷新仓库，确认可检测到更新。
 
-这样可以确保：版本可区分、客户端下载可用、插件更新可见。
+## 发布前检查清单
+
+- [ ] `pluginmaster.json` 格式合法（JSON 无语法错误）
+- [ ] `AssemblyVersion` 与插件包版本一致
+- [ ] 安装/更新链接可访问且文件名正确
+- [ ] 版本号高于上一发布版本
+- [ ] 在 Dalamud 中可正常安装/更新
+
+## 说明
+
+- 本仓库是独立分发渠道，可以与上游官方仓库不同步。
+- 如需追溯每个插件的版本细节，请以插件源码仓库和 release 记录为准。
