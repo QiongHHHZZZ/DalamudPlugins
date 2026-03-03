@@ -59,5 +59,27 @@
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.1700/ICE.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.1700/ICE.zip"
+    },
+    {
+        "Author":  "Una, QiongHHHZZZ(国服适配)",
+        "Name":  "Umbra XIV",
+        "InternalName":  "Umbra",
+        "AssemblyVersion":  "3.1.11.1101",
+        "Description":  "高度可定制的工具栏与 3D 世界标记插件。",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/QiongHHHZZZ/umbra",
+        "Tags":  [
+                     "ui",
+                     "marker",
+                     "markers",
+                     "toolbar"
+                 ],
+        "DalamudApiLevel":  14,
+        "LoadPriority":  0,
+        "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/umbra.png",
+        "Punchline":  "为游戏添加高度可定制的工具栏与 3D 世界标记。",
+        "AcceptsFeedback":  true,
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.11.1101/Umbra.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.11.1101/Umbra.zip"
     }
 ]
