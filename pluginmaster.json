@@ -64,7 +64,7 @@
         "Author":  "Una, QiongHHHZZZ(国服适配)",
         "Name":  "Umbra XIV",
         "InternalName":  "Umbra",
-        "AssemblyVersion":  "3.1.12.1203",
+        "AssemblyVersion":  "3.1.12.1204",
         "Description":  "高度可定制的工具栏与 3D 世界标记插件。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/umbra",
@@ -79,7 +79,7 @@
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/umbra.png",
         "Punchline":  "为游戏添加高度可定制的工具栏与 3D 世界标记。",
         "AcceptsFeedback":  true,
-        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1203/Umbra.zip",
-        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1203/Umbra.zip"
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1204/Umbra.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1204/Umbra.zip"
     }
 ]
