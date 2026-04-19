@@ -1,6 +1,6 @@
-﻿[
+[
     {
-        "Author":  "ReMakePlace Maintainers, QiongHHHZZZ(姹夊寲\u0026閫傞厤)",
+        "Author":  "ReMakePlace Maintainers, QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "ReMakePlace Plugin",
         "InternalName":  "ReMakePlacePlugin",
         "AssemblyVersion":  "7.4.2.0",
@@ -17,17 +17,17 @@
         "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/plugin/master/icon.png",
-        "Punchline":  "閫傞厤7.4鍙敤",
+        "Punchline":  "适配7.4可用",
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip"
     },
     {
-        "Author":  "Taurenkey (Puni.sh), QiongHHHZZZ(姹夊寲\u0026閫傞厤)",
+        "Author":  "Taurenkey (Puni.sh), QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "Artisan",
         "InternalName":  "Artisan",
         "AssemblyVersion":  "4.0.4.5101",
-        "Description":  "涓€浣撳寲鍒朵綔鎻掍欢銆?,
+        "Description":  "一体化制作插件。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/Artisan",
         "Tags":  [
@@ -36,17 +36,17 @@
         "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/artisan.png",
-        "Punchline":  "涓€涓€滅畝鍗曗€濈殑鍒朵綔鎻掍欢銆?,
+        "Punchline":  "一个“简单”的制作插件。",
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.4.5101/Artisan.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.4.5101/Artisan.zip"
     },
     {
-        "Author":  "Ice, QiongHHHZZZ(姹夊寲\u0026閫傞厤)",
+        "Author":  "Ice, QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "Ice's Cosmic Exploration (ICE)",
         "InternalName":  "ICE",
         "AssemblyVersion":  "0.0.76.3400",
-        "Description":  "鍥芥湇缁存姢鐗堝畤瀹欐帰绱㈡彃浠讹紝鏀寔閲囬泦銆佸埗浣溿€侀挀楸间笌浠诲姟鑷姩鍖栥€?,
+        "Description":  "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration",
         "Tags":  [
@@ -55,17 +55,17 @@
         "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/ice.png",
-        "Punchline":  "娆㈣繋鏉ュ埌鏈堢悆銆?,
+        "Punchline":  "欢迎来到月球。",
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3400/ICE.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3400/ICE.zip"
     },
     {
-        "Author":  "Una, QiongHHHZZZ(鍥芥湇閫傞厤)",
+        "Author":  "Una, QiongHHHZZZ(国服适配)",
         "Name":  "Umbra XIV",
         "InternalName":  "Umbra",
         "AssemblyVersion":  "3.1.12.1205",
-        "Description":  "楂樺害鍙畾鍒剁殑宸ュ叿鏍忎笌 3D 涓栫晫鏍囪鎻掍欢銆?,
+        "Description":  "高度可定制的工具栏与 3D 世界标记插件。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/umbra",
         "Tags":  [
@@ -77,10 +77,9 @@
         "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/umbra.png",
-        "Punchline":  "涓烘父鎴忔坊鍔犻珮搴﹀彲瀹氬埗鐨勫伐鍏锋爮涓?3D 涓栫晫鏍囪銆?,
+        "Punchline":  "为游戏添加高度可定制的工具栏与 3D 世界标记。",
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1205/Umbra.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.12.1205/Umbra.zip"
     }
 ]
-
