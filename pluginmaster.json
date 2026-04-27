@@ -45,7 +45,7 @@
         "Author":  "Ice, QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "Ice's Cosmic Exploration (ICE)",
         "InternalName":  "ICE",
-        "AssemblyVersion":  "0.0.76.3400",
+        "AssemblyVersion":  "0.0.76.3401",
         "Description":  "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration",
@@ -57,8 +57,8 @@
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/ice.png",
         "Punchline":  "欢迎来到月球。",
         "AcceptsFeedback":  true,
-        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3400/ICE.zip",
-        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3400/ICE.zip"
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3401/ICE.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.76.3401/ICE.zip"
     },
     {
         "Author":  "Una, QiongHHHZZZ(国服适配)",
