@@ -3,7 +3,7 @@
         "Author":  "ReMakePlace Maintainers, QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "ReMakePlace Plugin",
         "InternalName":  "ReMakePlacePlugin",
-        "AssemblyVersion":  "7.4.2.0",
+        "AssemblyVersion":  "7.5.1.0",
         "Description":  "Automatically save \u0026 load interior and exterior house layouts. Import/export layouts from the ReMakePlace program.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/plugin",
@@ -14,13 +14,13 @@
                      "remakeplace",
                      "re-makeplace"
                  ],
-        "DalamudApiLevel":  14,
+        "DalamudApiLevel":  15,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/plugin/master/icon.png",
-        "Punchline":  "适配7.4可用",
+        "Punchline":  "适配7.5.1.0可用",
         "AcceptsFeedback":  true,
-        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip",
-        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.4.2.0/ReMakePlacePlugin.zip"
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.5.1.0/ReMakePlacePlugin.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/plugin/releases/download/v7.5.1.0/ReMakePlacePlugin.zip"
     },
     {
         "Author":  "Taurenkey (Puni.sh), QiongHHHZZZ(汉化\u0026适配)",
