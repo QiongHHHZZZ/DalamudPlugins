@@ -46,6 +46,8 @@
         "Name":  "Ice's Cosmic Exploration (ICE)",
         "InternalName":  "ICE",
 		"AssemblyVersion":  "0.0.77.13000",
+        "TestingAssemblyVersion":  "0.0.77.13001",
+        "IsTestingExclusive":  false,
         "Description":  "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration",
@@ -58,7 +60,8 @@
         "Punchline":  "欢迎来到月球。",
         "AcceptsFeedback":  true,
 		"DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.77.13000/ICE.zip",
-		"DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.77.13000/ICE.zip"
+		"DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.77.13000/ICE.zip",
+        "DownloadLinkTesting":  "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration/releases/download/v0.0.77.13001/ICE.zip"
     },
     {
         "Author":  "Una, QiongHHHZZZ(国服适配)",
