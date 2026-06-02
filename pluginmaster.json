@@ -55,6 +55,7 @@
                      "Gatherers"
                  ],
         "DalamudApiLevel":  15,
+        "TestingDalamudApiLevel":  15,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/ice.png",
         "Punchline":  "欢迎来到月球。",
