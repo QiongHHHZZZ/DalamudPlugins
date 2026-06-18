@@ -82,5 +82,26 @@
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.16.1601/Umbra.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/umbra/releases/download/v3.1.16.1601/Umbra.zip"
+    },
+    {
+        "Author":  "QiongHHHZZZ",
+        "Name":  "AllHud",
+        "InternalName":  "AllHud",
+        "AssemblyVersion":  "0.0.0.1",
+        "Description":  "自定义战斗 HUD，集中显示目标情报、自身状态、队伍减伤/团辅冷却、食物检查和 LB 条。",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/QiongHHHZZZ/AllHud",
+        "Tags":  [
+                     "hud",
+                     "overlay",
+                     "combat"
+                 ],
+        "DalamudApiLevel":  15,
+        "LoadPriority":  0,
+        "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/AllHud/main/images/icon.png",
+        "Punchline":  "集中显示战斗 HUD 信息。",
+        "AcceptsFeedback":  true,
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/AllHud/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/AllHud/releases/download/v0.0.0.1/latest.zip"
     }
 ]
