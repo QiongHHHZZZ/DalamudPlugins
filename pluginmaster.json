@@ -103,5 +103,26 @@
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/AllHud/releases/download/v0.0.0.1/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/AllHud/releases/download/v0.0.0.1/latest.zip"
+    },
+    {
+        "Author":  "Kouzukii",
+        "Name":  "Death Recap",
+        "InternalName":  "DeathRecap",
+        "AssemblyVersion":  "1.13.4.0",
+        "Description":  "死亡回顾插件，显示死亡前的战斗事件时间线。Abs.Time 从战斗开始计时。",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/zfxsquare/ffxiv-deathrecap",
+        "Tags":  [
+                     "death",
+                     "combat",
+                     "recap"
+                 ],
+        "DalamudApiLevel":  15,
+        "LoadPriority":  0,
+        "IconUrl":  "https://raw.githubusercontent.com/zfxsquare/DalamudPlugins/main/icons/deathrecap.png",
+        "Punchline":  "死亡回顾",
+        "AcceptsFeedback":  true,
+        "DownloadLinkInstall":  "https://github.com/zfxsquare/ffxiv-deathrecap/releases/download/v1.13.4.0/DeathRecap.zip",
+        "DownloadLinkUpdate":  "https://github.com/zfxsquare/ffxiv-deathrecap/releases/download/v1.13.4.0/DeathRecap.zip"
     }
 ]
