@@ -26,7 +26,7 @@
         "Author":  "Taurenkey (Puni.sh), QiongHHHZZZ(汉化\u0026适配)",
         "Name":  "Artisan",
         "InternalName":  "Artisan",
-        "AssemblyVersion":  "4.0.5.18000",
+        "AssemblyVersion":  "4.0.5.19000",
         "Description":  "一体化制作插件。",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/QiongHHHZZZ/Artisan",
@@ -38,8 +38,8 @@
         "IconUrl":  "https://raw.githubusercontent.com/QiongHHHZZZ/DalamudPlugins/main/icons/artisan.png",
         "Punchline":  "一个“简单”的制作插件。",
         "AcceptsFeedback":  true,
-        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.5.18000/Artisan.zip",
-        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.5.18000/Artisan.zip"
+        "DownloadLinkInstall":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.5.19000/Artisan.zip",
+        "DownloadLinkUpdate":  "https://github.com/QiongHHHZZZ/Artisan/releases/download/v4.0.5.19000/Artisan.zip"
     },
     {
         "Author":  "Ice, QiongHHHZZZ(汉化\u0026适配)",
